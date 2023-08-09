@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="DELETE">
+        <includes/>
+        <macroponent display_value="Related records">965b492197e4b1104aa5f0b0f053afe0</macroponent>
+        <name>button_iconic_3/disabled</name>
+        <preset/>
+        <required_translations/>
+        <script><![CDATA[/**
+  * @param {params} params
+  * @param {api} params.api
+  * @param {any} params.imports
+  */
+function evaluateProperty({api}) {
+  if(api.state.selectedTable === "" || api.state.selectedTable === null)
+    return true;
+  return false;
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-09 02:08:01</sys_created_on>
+        <sys_id>da5b492197e4b1104aa5f0b0f053afeb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>button_iconic_3/disabled</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_ux_client_script_da5b492197e4b1104aa5f0b0f053afeb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-09 02:08:01</sys_updated_on>
+        <target>macroponent</target>
+        <type>transform</type>
+    </sys_ux_client_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>127b73bddb4e11180b9d21c4059619f9</instance_id>
+        <instance_name>dev135336</instance_name>
+        <name>sys_ux_client_script_da5b492197e4b1104aa5f0b0f053afeb</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ux_client_script"&gt;&lt;sys_ux_client_script action="INSERT_OR_UPDATE"&gt;&lt;includes/&gt;&lt;macroponent display_value="Related records"&gt;965b492197e4b1104aa5f0b0f053afe0&lt;/macroponent&gt;&lt;name&gt;button_iconic_3/disabled&lt;/name&gt;&lt;preset/&gt;&lt;required_translations/&gt;&lt;script&gt;&lt;![CDATA[/**
+  * @param {params} params
+  * @param {api} params.api
+  * @param {any} params.imports
+  */
+function evaluateProperty({api}) {
+  if(api.state.selectedTable === "" || api.state.selectedTable === null)
+    return true;
+  return false;
+}]]&gt;&lt;/script&gt;&lt;script_api_version&gt;2.0.0&lt;/script_api_version&gt;&lt;sys_class_name&gt;sys_ux_client_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-08-09 02:08:01&lt;/sys_created_on&gt;&lt;sys_id&gt;da5b492197e4b1104aa5f0b0f053afeb&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;button_iconic_3/disabled&lt;/sys_name&gt;&lt;sys_package display_value="NeedIt" source="x_58872_needit"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="NeedIt"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ux_client_script_da5b492197e4b1104aa5f0b0f053afeb&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-08-09 02:08:01&lt;/sys_updated_on&gt;&lt;target&gt;macroponent&lt;/target&gt;&lt;type&gt;transform&lt;/type&gt;&lt;/sys_ux_client_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1836409834</payload_hash>
+        <record_name>button_iconic_3/disabled</record_name>
+        <reverted_from/>
+        <source>2863699997e471104aa5f0b0f053afbb</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-09 02:08:03</sys_created_on>
+        <sys_id>fe5b892197e4b1104aa5f0b0f053afc1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>189d80d14670000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-09 02:08:03</sys_updated_on>
+        <type>UX Client Script</type>
+        <update_guid>b65b892134e4b110960b9f7d2adab4c1</update_guid>
+        <update_guid_history>b65b892134e4b110960b9f7d2adab4c1:1836409834,b65b892171e4b11058f031b7342ff192:429750874,6e5b89214de4b110cf71edee81915e29:1836409834,9e5b49215ee4b110b6db23e03c3f4bef:-704066793</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-09 02:08:14</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_client_script">sys_ux_client_script</sys_db_object>
+        <sys_id>73880d6f5b3c49849b497d2b2b18c7e4</sys_id>
+        <sys_metadata>da5b492197e4b1104aa5f0b0f053afeb</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>button_iconic_3/disabled</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_ux_client_script_da5b492197e4b1104aa5f0b0f053afeb</sys_update_name>
+        <sys_update_version display_value="sys_ux_client_script_da5b492197e4b1104aa5f0b0f053afeb">fe5b892197e4b1104aa5f0b0f053afc1</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-09 02:08:14</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
